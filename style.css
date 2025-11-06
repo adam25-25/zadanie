@@ -1,0 +1,57 @@
+body {
+  background-color: grey;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-top: 40px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  background-color: grey;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.gallery {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery div {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  display: block;
+}
+
+.gallery p {
+  margin-top: 5px;
+  color: #333;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
